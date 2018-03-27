@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+		<!-- <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script> -->
+		<!------ Include the above in your HEAD tag ---------->
+
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+
+		<link rel="stylesheet" type="text/css" href="resources/css/style2.css">
+		<script src="resources/javascript/script2.js"></script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Hotel application</title>
+	</head>
+
+	<body>	
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-sm-6 col-xs-6 col-md-offset-3">
+					<div id="iosBlurBg">
+						<div id="whiteBg"></div>
+					</div>
+					<div id="bottomEnter"></div>
+					<div id="bottomBlurBg"></div>
+					<!-- Login Form -->
+					<div class="loginForm">
+						<div class="title">
+							<p><span>REGISTER</span></p>
+							<hr>
+							<hr class="short">
+						</div>
+						<form>
+							<div class="col-3">
+								<input class="effect-2" id="first" type="text" placeholder="First Name:">
+								<div id="errFirst"></div>
+								<span class="focus-border"></span>
+
+								<input class="effect-2" id="last" type="text" placeholder="Last Name:">
+								<div id="errLast"></div>
+								<span class="focus-border"></span>
+								
+								<input class="effect-2" id="email" type="email" placeholder="E-mail:">
+								<div id="errEmail"></div>
+								<span class="focus-border"></span>
+
+								<input class="effect-2" id="pwd" type="password" placeholder="Password:	">
+								<div id="errPwd"></div>
+								<span class="focus-border"></span>
+							</div>
+
+							<div class="LOGIN">
+								<h3>Have an account?</h3>
+								<button class="btn btn-default btn-sm"><a href="proekt.html">Log In</a></button>
+							</div>
+
+						</form>
+					</div>
+					<a href="#" onclick="validate(); finalValidate();">
+						<div class="enterButton">
+							<i class="fa fa-lock fa-2x text-white"></i><br>
+							<span class="enterText text-white">Enter</span>
+						</div>
+						<div id="errFinal"></div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
